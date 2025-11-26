@@ -1,0 +1,11 @@
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: auto;
+}
+@media (max-width: 768px) {
+  nav a {
+    font-size: 14px;
+    margin: 5px;
+  }
+}
